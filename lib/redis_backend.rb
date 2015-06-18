@@ -1,4 +1,7 @@
 require "redis_backend/version"
+require 'rubygems'
+require 'bundler/setup'
+require 'redis'
 
 if ENV['REDIS_SERVER']
   begin
