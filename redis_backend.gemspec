@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["cristian.arroyo@vivaserver.com"]
   spec.description   = %q{Protect operations from Redis backend unavailability gracefully}
   spec.summary       = %q{Protect operations from Redis backend unavailability gracefully}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/vivaserver/redis_backend"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
